@@ -1,16 +1,13 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[63]:
-
-
 import pandas as pd
 from statistics import variance
 
 from matplotlib.pyplot import subplot, scatter, plot, axis
 from scipy.stats import linregress
 
-dataf = pd.read_excel('D:\\Google Drive\\RWTH\\New folder\\Anscombe\\Anscombes-Quartet\\Anscombe Dataset.xls')
+dataf = pd.read_excel('Anscombe Dataset.xls')
 
 # Calculate Mean of x for each dataset 
 print('________________________Mean of x_____________________________')
@@ -73,10 +70,3 @@ subplot(2, 2, 4, sharex=ax1, sharey=ax1)
 scatter(dataf['x4'], dataf['y4'])
 slope, intercept, r_value, p_value, std_err = linregress(dataf['x4'], dataf['y4'])
 plot([0, xmax], [intercept, slope * xmax + intercept])
-
-
-# In[ ]:
-
-
-
-
