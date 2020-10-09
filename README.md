@@ -6,7 +6,7 @@ Anscombe’s Quartet is the modal example to demonstrate the importance of data 
 To analyze the data visualization, Follow the instruction.
 
 1-  Clone the repository 'Anscombes-Quartet' in your local directory by command
-        'git clone https://github.com/muhammad-usman-108/Anscombes-Quartet.git'
+        `git clone https://github.com/muhammad-usman-108/Anscombes-Quartet.git`
         
 2-  Open the command terminal
 
