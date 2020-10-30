@@ -1,7 +1,7 @@
 # Anscombes-Quartet
 Analysis of Importance of Data Visualization
 
-You can also see my blog in medium published in Analytics Vidhya. 
+You can also see my blog in medium published in "Analytics Vidhya". 
 
 https://medium.com/analytics-vidhya/anscombes-quartet-an-importance-of-data-visualization-856b3d1bd403
 
